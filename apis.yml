@@ -1,8 +1,30 @@
 aid: cocoon
 name: Cocoon
-description: 'Cocoon is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Cocoon is next-generation employee leave management software that automates the
+  complexities of compliance, claims, and payroll for every type of employee leave
+  (parental, medical, caregiver, accommodation, bereavement, and personal) across
+  all 50 U.S. states. It factors in state, federal, company, and insurance benefits
+  to calculate eligibility, generate designation notices, and streamline the leave
+  experience for both employees and HR teams. Cocoon connects to 20+ HRIS and payroll
+  platforms (Workday, Rippling, Gusto, BambooHR, ADP, Paylocity, UKG, and more) via
+  API integrations that sync employee data in real time. Founded in 2020 by former
+  Stripe and Square leaders and backed by Index Ventures and First Round Capital,
+  Cocoon was acquired by TriNet in April 2026. Cocoon is a consumer of HRIS/payroll
+  APIs rather than a publisher of a public developer API; no public OpenAPI, SDKs,
+  or developer portal are published.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64ce9f51615cb3ead94d5f9f/64e8c64fc9cd2789cd6b1d92_cocoon%20webclip.webp
 url: https://raw.githubusercontent.com/api-evangelist/cocoon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +32,19 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: trinet
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Human Resources
+- Leave Management
+- HR Tech
+- Compliance
+- Payroll
+- HRIS
+- Employee Benefits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.meetcocoon.com/
+  url: https://www.cocoon.com/
+- type: Blog
+  url: https://www.cocoon.com/blog
+- type: Pricing
+  url: https://www.cocoon.com/pricing
+- type: Login
+  url: https://app.cocoon.com/login
+- type: TermsOfService
+  url: https://www.cocoon.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.cocoon.com/legal/privacy
+- type: ChangeLog
+  url: https://www.cocoon.com/cocoon-changelog
+- type: TrustCenter
+  url: https://trust.cocoon.com/
+- type: DomainSecurity
+  url: security/cocoon-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

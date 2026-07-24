@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.cocoon.com/
+url: https://trust.cocoon.com/
+platform: Vanta
+# trust.cocoon.com is a live, Vanta-hosted Trust Center for Cocoon (data-environment=prod,
+# Vanta signature manifest served from assets.vanta.com). Content is client-rendered, so
+# named certifications could not be extracted verbatim from the page HTML; none are asserted
+# here to avoid fabrication. Update `certifications` only from verbatim, verified evidence.
+certifications: []
+evidence:
+- source: https://trust.cocoon.com/
+  kind: trust-center
+  detail: Vanta-hosted Trust Center (data-version + assets.vanta.com signature manifest present)
