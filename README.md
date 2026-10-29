@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cocoon is a company surfaced as a portfolio company of index-ventures and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.
+Cocoon is next-generation employee leave management software that automates the complexities of compliance, claims, and payroll for every type of employee leave (parental, medical, caregiver, accommodation, bereavement, and personal) across all 50 U.S. states. It factors in state, federal, company, and insurance benefits to calculate eligibility, generate designation notices, and streamline the leave experience for both employees and HR teams. Cocoon connects to 20+ HRIS and payroll platforms (Workday, Rippling, Gusto, BambooHR, ADP, Paylocity, UKG, and more) via API integrations that sync employee data in real time. Founded in 2020 by former Stripe and Square leaders and backed by Index Ventures and First Round Capital, Cocoon was acquired by TriNet in April 2026. Cocoon is a consumer of HRIS/payroll APIs rather than a publisher of a public developer API; no public OpenAPI, SDKs, or developer portal are published.
 
-Backed by: index-ventures — https://www.meetcocoon.com/
+**Areas:** Company · Human Resources · Leave Management · Compliance · Payroll · HRIS · Employee Benefits
+
+## Cocoon on APIs.io
+
+Everything profiled for Cocoon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cocoon/](https://apis.io/providers/cocoon/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cocoon Domain Security](https://apis.io/security/cocoon/cocoon-domain-security/)
+- [Cocoon Trust Center](https://apis.io/security/cocoon/cocoon-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cocoon.com/)
+- [Pricing](https://www.cocoon.com/pricing)
+- [Changelog](https://www.cocoon.com/cocoon-changelog)
+- [Blog](https://www.cocoon.com/blog)
+- [Trust centre](https://trust.cocoon.com/)
+- [Terms of service](https://www.cocoon.com/legal/terms)
+- [Privacy policy](https://www.cocoon.com/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 16.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 46.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cocoon/](https://apis.io/providers/cocoon/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cocoon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cocoon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
